@@ -13,3 +13,6 @@ function minusTwoNums (a,b) {
     console.log(c);
 }
 minusTwoNums(2,6);
+
+// storing data in arrays (like a freight train)
+

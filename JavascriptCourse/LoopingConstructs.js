@@ -21,6 +21,7 @@ while (counter > 0) {
 console.log("Start")
 
 // Nested Loops
+// nested loop will make ur code slower
 
 for (var i = 1; i <= 2; i++) {
     for (var j = 1; j <= 5; j++) {

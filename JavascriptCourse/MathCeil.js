@@ -11,4 +11,4 @@ var rounded2 = Math.ceil(decimal);
 console.log(rounded2)
 
 var result = "Hello".indexOf('l');
-console.log(result)
+console.log(result) // H = 0, e = 1, l = 2
