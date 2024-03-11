@@ -9,3 +9,6 @@ console.log("decimal out: " + decimal)
 
 var rounded2 = Math.ceil(decimal);
 console.log(rounded2)
+
+var result = "Hello".indexOf('l');
+console.log(result)
