@@ -1,0 +1,172 @@
+body {
+    background-color: #EDEFEE;
+    font-family: "Poppins", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation bar */
+
+nav {
+    border-radius: 12px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    height: 8vh;
+}
+
+nav li {
+    display: inline-block;
+    height: 48px;
+    width: 80px;
+}
+
+nav ul li a {
+    display: block;
+    margin-top: 25%;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 680;
+}
+nav ul li a:hover{
+    color: grey;
+}
+
+/* Body start */
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    flex: 1;
+    border-radius: 12px;
+    padding: 15px;
+    max-width: 600px;
+}
+
+footer {
+    display: flex;
+    margin-top: 5rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+.about {
+
+}
+
+/* New arrivals */
+.food-item {
+    display: inline-flex;
+    width: 260px;
+    height: 500px;
+    flex-direction: column;
+    padding: 12px;
+    margin: 5px 15px;
+    border: 0.15rem black solid;
+    border-radius: 30px;
+    background-color: var(--background4);
+}
+
+.food-item:hover {
+    transform: scaleX(120%) scaleY(120%);
+    transition: 150ms;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.379);
+}
+
+.food-item>p {
+    font-weight: bold;
+}
+
+.food-item>h6 {
+    font-size: 25px;
+    padding: 0px 0px;
+    text-decoration: underline solid black;
+}
+
+.food-item>img {
+    margin: auto;
+    width: 250px;
+    height: auto;
+}
+
+
+/* Menu Table */
+
+.menu {
+    flex: 1; /* Make the menu section flexible to fill remaining space */
+    max-width: 800px; /* Set maximum width for the menu */
+}
+
+.menu>p {
+    font-size: 20px;
+    margin-left: 2vw;
+    margin-bottom: 50px;
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #1a17171d;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.415);
+}
+
+tr:nth-child(1) {
+    background-color: rgba(222, 225, 22, 0.327);
+}
+
+tr:hover {
+    background-color: grey;
+}
+
+th {
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+td {
+    padding: 10px 30px;
+    text-align: center;
+}
+
+tr:nth-child(1) {
+    text-align: center;
+}
+
+table>tr:nth-child() {
+    text-align: center;
+}
+
+.menu-t {
+    margin: 0 auto;
+    width: 100%; /* Set width to 100% to fill the container */
+}
