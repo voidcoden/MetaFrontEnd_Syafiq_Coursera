@@ -1,5 +1,5 @@
 body {
-    background-color: #EDEFEE;
+    background-color: #ebebeb;
     font-family: "Poppins", sans-serif;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -25,6 +25,7 @@ header > img {
 
 nav {
     border-radius: 12px;
+    background-color: #b8b8b8;
 }
 
 nav ul {
@@ -63,7 +64,6 @@ article {
     flex: 1;
     border-radius: 12px;
     padding: 15px;
-    max-width: 600px;
 }
 
 footer {
@@ -75,17 +75,31 @@ footer div {
     flex: 1;
 }
 
+/* About */
+
+#about {
+    border-radius: 12px;
+    background-image: url('./assets/pasta.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    padding: 50px; /* Add padding for better readability */
+}
+
+#about h1,
+#about p {
+    color: #fff; /* Set text color to white for better contrast */
+}
+
 /* New arrivals */
 .food-item {
     display: inline-flex;
-    width: 260px;
-    height: 500px;
+    width: 250px;
+    height: 600px;
     flex-direction: column;
     padding: 12px;
-    margin: 5px 15px;
-    border: 0.15rem black solid;
+    margin: 5px 10px;
     border-radius: 30px;
-    background-color: var(--background4);
+    background-color: rgb(241, 211, 171);
 }
 
 .food-item:hover {
@@ -94,18 +108,11 @@ footer div {
     box-shadow: 5px 5px rgba(17, 17, 17, 0.379);
 }
 
-.food-item>p {
-    font-weight: bold;
-}
-
 .food-item>h6 {
     font-size: 25px;
-    padding: 0px 0px;
-    text-decoration: underline solid black;
 }
 
 .food-item>img {
-    margin: auto;
     width: 250px;
     height: auto;
 }
